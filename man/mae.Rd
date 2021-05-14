@@ -17,6 +17,3 @@ numeric of MAE
 \description{
 This function will calculate MAE
 }
-\examples{
-mae(actual,predicted)
-}

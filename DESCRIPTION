@@ -1,5 +1,5 @@
 Package: SubsamplingOptimisation
-Title: Functions for optimising sampling densities
+Title: Functions for optimising spatial sampling densities
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Ned",
@@ -21,3 +21,9 @@ Imports:
     graphics,
     stats,
     data.table
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

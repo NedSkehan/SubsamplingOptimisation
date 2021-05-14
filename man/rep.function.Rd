@@ -4,7 +4,7 @@
 \alias{rep.function}
 \title{A function for repetition of Oridinary Kriging}
 \usage{
-\method{rep}{`function`}(css, depth_spdf, grid, replications)
+\method{rep}{`function`}(css, depth_spdf, grid, replications, property)
 }
 \arguments{
 \item{css}{vector of subsample lengths}
@@ -14,13 +14,12 @@
 \item{grid}{grid to krige across}
 
 \item{replications}{numeric of required replications}
+
+\item{property}{char of property name in 'depth_spdf' for kriging. Case sensitive}
 }
 \value{
 list of error indicies for each subsample size
 }
 \description{
 This function will iterate through a vector of subsample sizes
-}
-\examples{
-rep.function(vec,spdf,grid)
 }

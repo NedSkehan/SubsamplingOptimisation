@@ -4,7 +4,7 @@
 \alias{OK_krig}
 \title{An Ordinary Kriging function}
 \usage{
-OK_krig(data, grid, data.val, proj4Str, l)
+OK_krig(data, grid, data.val, property)
 }
 \arguments{
 \item{data}{SpatialPointsDataFrame of calibration data}
@@ -13,16 +13,11 @@ OK_krig(data, grid, data.val, proj4Str, l)
 
 \item{data.val}{SpatialPointsDataFrame of validation data}
 
-\item{proj4Str}{chr string of the projection of data}
-
-\item{l}{numeric column index of variable for kriging}
+\item{property}{char of property name in 'data' for kriging. Case sensitive}
 }
 \value{
 list of error indicies for each subsample size
 }
 \description{
 This function will perform orindary kriging
-}
-\examples{
-rep.function.rk(vec,spdf,grid)
 }

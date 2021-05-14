@@ -17,6 +17,3 @@ numeric of MSE
 \description{
 This function will calculate MSE
 }
-\examples{
-mse(actual,predicted)
-}

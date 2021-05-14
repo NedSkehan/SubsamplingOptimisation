@@ -17,6 +17,3 @@ numeric of RSQ
 \description{
 This function will calculate RSQ
 }
-\examples{
-rsq(actual,predicted)
-}
